@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Bmob.initialize(this, "ce3e3b07c65f64e5ae70284925a95bc9");
 
+
     }
 
     public void login(View view){
