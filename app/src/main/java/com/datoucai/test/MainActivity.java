@@ -23,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Bmob.initialize(this, "ce3e3b07c65f64e5ae70284925a95bc9");
-
-
     }
 
     public void login(View view){
@@ -69,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
                         }
                         //获得数据的objectId信息
                         //获得createdAt数据创建时间（注意是：createdAt，不是createAt）
-
                     }
                 }else{
                      Toast.makeText(MainActivity.this,"您还没有注册",Toast.LENGTH_SHORT).show();
